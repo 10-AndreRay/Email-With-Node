@@ -17,7 +17,6 @@ oAuth2Client.setCredentials({ refresh_token: refresh_token });
 //function
 async function sendMail(){
     try{
-        //used in the variable <infoTranport>
         const access_token = await oAuth2Client.getAccessToken();
 
         const transport = nodemailer.createTransport({

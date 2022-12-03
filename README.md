@@ -1,5 +1,5 @@
 # Enviando email com Node
-Código capaz de enviar e-mails através do Nodejs usando a bilbioteca nodemailer e googleapis.
+Código capaz de enviar e-mails através do Nodejs usando a biblioteca nodemailer e googleapis.
 
 * npm install dotenv
 * npm install nodemailer
